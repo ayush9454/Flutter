@@ -1,6 +1,7 @@
 void main() {
   //print("Hello World");
+  String? someValue;
 
-  dynamic ayush = "10";
-  print(ayush.runtimeType);
+  someValue = null;
+  print(someValue?.length??0);
 }
